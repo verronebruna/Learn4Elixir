@@ -379,10 +379,10 @@ A interpolação de strings permite que você insira valores de variáveis ou ex
 ```
 
 ```elixir
-"Eu tenho #{25} anos de idade."
+"Eu tenho #{23} anos de idade."
 ```
 
-Observe que não apresentamos nenhuma operação com átomos, exceto quando estes são valores lógicos.
+Observe que não apresentamos nenhuma operação com átomos, exceto quando estes são valores lógicos. #Dúvida!
 
 ## Variáveis
 
@@ -584,7 +584,7 @@ Embora seja uma possível, desaconselha-se a concatenação de listas usando o o
 [1, 3, 56] ++ [34, 560, 8]
 ```
 
-**NOTA**: Em Elixir, o nome de uma função ou operador tem dois componentes: o nome em si (neste caso ++) e sua aridade. Aridade é informação essencial quando se fala sobre código Elixir, pois esta indica o número de argumentos que uma função ou operador aceita (dois, neste nosso exemplo). Ou seja, uma função *soma*, que recebe dois argumentos seria representada como `soma/2`, e esta é uma função completamente distinta de `soma/3`, por exemplo. Nome e aridade são combinados com uma barra (/).
+**NOTA**: Em Elixir, o nome de uma função ou operador tem dois componentes: o nome em si (neste caso ++) e sua aridade. Aridade é informação essencial quando se fala sobre código Elixir, pois esta indica o número de argumentos que uma função ou operador aceita (dois, neste nosso exemplo). Ou seja, uma função *soma*, que recebe dois argumentos seria representada como `soma/2`, e esta é uma função completamente distinta de `soma/3`, por exemplo. Nome e aridade são combinados com uma barra (/).  #Dúvida!
 
 ```elixir
 # subtração de listas, operador '--/2'
